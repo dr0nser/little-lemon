@@ -5,10 +5,16 @@ import ChefsImage from '../assets/chefs.jpg'
 const About = () => {
   return (
     <section id="about">
-      <h2>About</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus sunt suscipit, beatae quasi officiis unde iusto eaque mollitia nihil aut hic quibusdam vero commodi nostrum. Nesciunt delectus laborum saepe, doloremque pariatur quisquam iusto est, repudiandae nam sed eaque soluta? Explicabo quo eum nemo non. Quis quas ab nostrum in tempore.</p>
-      <img src={RestaurantImage} alt="Little Lemon Restaurant" />
-      <img src={ChefsImage} alt="Little Lemon Restaurant Chefs" />
+      <div className="container">
+        <div className="content">
+          <h2>About</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor pariatur soluta repellat nobis aperiam vel, numquam fuga veritatis quae, natus laboriosam ut quidem! Eveniet esse quos similique, accusamus nisi autem nesciunt quas, et, obcaecati aliquid exercitationem! Aliquam vero rem vitae hic laudantium dolor impedit consequuntur voluptate nesciunt ab neque labore facilis, reiciendis ut quibusdam a blanditiis natus, cum distinctio?</p>
+        </div>
+        <div className="image-container">
+          <img src={ChefsImage} alt="Little Lemon Restaurant" />
+          <img src={RestaurantImage} alt="Little Lemon Restaurant Chefs" />
+        </div>
+      </div>
     </section>
   )
 }

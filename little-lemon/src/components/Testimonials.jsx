@@ -7,10 +7,14 @@ import Person3 from '../assets/person3.png'
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h2>Testimonials</h2>
-      <Testimonial image={Person1} name="John Doe" rating="5.0" testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis?" />
-      <Testimonial image={Person2} name="Mary Jane" rating="4.7" testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis?" />
-      <Testimonial image={Person3} name="Tom McGill" rating="4.9" testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis?" />
+      <div className="container">
+        <h2>Testimonials</h2>
+        <div>
+          <Testimonial image={Person1} name="John Doe" rating="5.0" testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis?" />
+          <Testimonial image={Person2} name="Mary Jane" rating="4.7" testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis?" />
+          <Testimonial image={Person3} name="Tom McGill" rating="4.9" testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis?" />
+        </div>
+      </div>
     </section>
   )
 }

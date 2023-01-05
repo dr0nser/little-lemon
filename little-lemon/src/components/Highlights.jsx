@@ -4,9 +4,13 @@ import FoodCards from './FoodCards'
 const Highlights = () => {
   return (
     <section id="highlights">
-      <h2>Specials</h2>
-      <button>Online Menu</button>
-      <FoodCards />
+      <div className="container">
+        <div className="content">
+          <h2>Specials</h2>
+          <button>Online Menu</button>
+        </div>
+        <FoodCards />
+      </div>
     </section>
   )
 }
