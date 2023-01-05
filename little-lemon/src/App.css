@@ -84,6 +84,10 @@ header > div > ul > li > a {
     cursor: pointer;
     transition: all 0.2s ease;
 }
+#hero button > a {
+    text-decoration: none;
+    color: black;
+}
 #hero button:hover {
     transform: scale(105%);
 }
