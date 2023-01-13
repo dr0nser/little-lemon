@@ -3,11 +3,11 @@ import Footer from './Footer'
 import Header from './Header'
 import BookTable from './BookTable'
 
-const Booking = () => {
+const Booking = ({ availableTimes, setAvailableTimes, submitForm }) => {
   return (
     <div>
         <Header />
-        <BookTable />
+        <BookTable availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} submitForm={submitForm} />
         <Footer />
     </div>
   )
